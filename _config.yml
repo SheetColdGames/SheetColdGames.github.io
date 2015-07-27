@@ -1,0 +1,32 @@
+# visit https://github.com/mojombo/jekyll/wiki/Configuration for more settings
+
+paginate: 10 # pagination based on number of posts
+paginate_path: "page:num"
+exclude: ["README.md"] # files to exclude
+highlighter: pygments
+markdown: kramdown
+#auto: true
+
+defaults:
+  -
+    scope:
+      path: "" # empty string for all files
+    values:
+      title: Sheet Cold Games' Blog
+
+description: Indie Game development
+author:
+  name: SCG
+  email: sheetcoldgames@gmail.com
+  github: sheetcoldgames
+  twitter: sheetcoldgames
+  pinterest: 
+  linkedin: 
+  bio: INDIE GAME DEVELOPMENT
+  email_md5: 726351295ec82e145928582f595aa3aa
+
+rss_path: feed.xml
+categories_path: categories.html
+tags_path: tags.html
+
+BASE_PATH:

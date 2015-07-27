@@ -1,0 +1,86 @@
+---
+layout: post
+title: Our first Ludum Dare game - Beneath Lights
+date: 2014-05-02 05:04:17.000000000 -03:00
+categories:
+- Global Game Jam
+- Ludum Dare
+tags:
+- fast game creation
+- Game Design
+status: publish
+type: post
+published: true
+description: By Rafael Giordanno
+meta:
+  _edit_last: '24444519'
+  _publicize_pending: '1'
+author:
+  login: rafaelgiordanno
+  email: rafaelgiordanno@yahoo.com
+  name: Rafael Giordanno
+  twitter: giordanno92
+  first_name: ''
+  last_name: ''
+excerpt: !ruby/object:Hpricot::Doc
+  options: {}
+---
+<p>I (Rafael) have participated in the Ludum Dare for the first time. I've been wanting to make a game there since LD23, but never thought I had "what it takes" to make a decent game in 48h/72h. But now the game is here, I present you: <a title="Click here to play" href="http://www.ludumdare.com/compo/ludum-dare-29/?action=preview&amp;uid=34466" target="_blank">Beneath Lights</a>!</p>
+<p><a href="http://www.ludumdare.com/compo/ludum-dare-29/?action=preview&amp;uid=34466"><img class="size-large wp-image-54" src="/assets/media/beneath1.png?w=460" alt="Beneath Lights" width="460" height="345" /></a></p>
+<p><!--more--></p>
+<h1>Post mortem</h1>
+<p>In case you don't want to read all of this stuff, there's a <a href="#tldr">TL;DR;</a> at the end where I bring my experiences earned into account</p>
+<h2>72 hours to think/create, less than 48 to work</h2>
+<p>10:00 PM - The theme was released, I had no time to work immediately, another compo was happening at the same time: Google Code Jam.</p>
+<p>After deciding to forget about the GCJ, I decided to move into LD and the first hours were tough. At first, Beneath the Surface sounded like a nice theme. But I couldn't come up with any idea that satisfied myself and the theme limitations. Many objective and subjective thoughts happened at the same time: "A drowning... Excavation... Multiple Layers... Historical background layers" All these ideas could not satisfy my need to create a game that could make me feel proud in the end. So, at 6am, a hard idea appeared and I decided to work in a game that was ready for Mobile and Desktop. By that time, I had already started a simple scene and a small physical world.</p>
+<p>When I got home, at 8am (I was at João Vitor's house because of GCJ), I took some rest thinking that I had a game in mind. When I woke up I kept working on the idea of a shoot and run + Runner game for mobile. The story would make more sense in terms of theming. But when it was 23pm at my time, I had almost nothing from the game I had in mind, so I decide to scrap that idea and think of something new. After two hours of brainstorming, a new idea emerged, and that was the concept for Beneath Lights.</p>
+<h2>Removing non-used code and working on the new idea</h2>
+<p>Starting the new game from 1:00 AM left me with less than 48h to finish it. The new game idea revolved around a man in struggle with his memory constantly thinking of his lost loved one and punishing himself for that (the dark platform maze is a punishing area btw). Most of the ideas (orb, dark maze and lights) were not thought until the last day of the jam. Before that, it was just me drawing the house and creating platforming mechanics. When the whole idea for the game was done, I decided to let the underground become complete darkness and that allowed me to create a game that could fit my vision and let me work around the time limitations and lack of experience on this type of event.</p>
+<p>Throughout this process, I deleted almost all of my code used for the other type of game and things became quite simpler for quite some time. After all, I thought I'd made the right decision with the game changing, but thinking about it on the first day would surely have helped me a lot. By the end of the second day, I had no art and was using placeholders. That's when <a href="http://www.ludumdare.com/compo/author/brittbrady/" target="_blank">Britt Brady</a> saved the day with his music and art. I decided to call for help on LD blog page and he showed up interested. He did the arts super fast and made two awesome tracks for the game (which unfortunately could only fit one).</p>
+<h2>Ok, so what was learned through all this process?</h2>
+<p>This is my second game jam and obviously several things were learned, here are some tips:</p>
+<ul>
+<li><strong>Avoid hard code things that are not supposed to be hard coded</strong></li>
+</ul>
+<p>And by that, I mean creating maps. I had a super hard time creating the map (a problem that I almost didn't have with Silver Lining), All the Box2D coordinates were hard coded and that's plain stupid, so simply try to create an easy way to develop a map editor to just focus on important things, don't feel ashamed by that. You might even want to play hard mode and just create your map editor during the jam, but if you're not experienced (as I am not), just use a map editor. Believe me, creating a game with a map editor is hard enough, don't fool yourself thinking otherwise. There might be other things, but create maps is just the first things that comes into my mind.</p>
+<ul>
+<li><strong>(Any) Experience counts more than you can imagine:</strong></li>
+</ul>
+<p>Between the GGJ and LD, I had plenty of time to work on learning more about the LibGDX framework. Constantly creating bodies on Box2D and levels with short game mechanics allowed me to make stuff much faster than the previous game and understand problems as soon as they appeared. Real experience creating games is much more important than theoretical experience. Not only that, but we code a lot faster.</p>
+<ul>
+<li><strong>Focus on crucial details early on:</strong></li>
+</ul>
+<p>If your game is a platformer, focus on get the platforming right before adding new elements (don't focus too much though, a good enough at the beginning might be improved on the last hours, just don't leave it buggy). If it's a ship game, focus on the fact that the gravity revolving your ship should feel right before moving on. If it's a RPG with text, focus on a smart way to make the text move faster (for debug or even in game) and on the battle mechanics. Focus on the main facts that make your game playable underneath all the art and music.</p>
+<ul>
+<li><strong>Debug tools are very important</strong></li>
+</ul>
+<p>Debug tools save a LOT of time, so always create a debug condition for your game and you might be able to test stuff quicker (since you won't be able to test much stuff for your game anyway). I can't even count the amount of time I wasted closing and opening the game window just to change one line of code.</p>
+<ul>
+<li><strong>Respect your limitations</strong></li>
+</ul>
+<p>I know that my game is not the greatest game of all LD. It is a short game, its platforming mechanics are far from awesome, but they're decent. Great part of it is because I like to respect my limitations at this moment. I'd rather create something shorter but nice, than something longer and painful to play (even though some might think Beneath Lights is a bit frustrating). From this game to the previous is pretty much the same mechanics, but they feel different, they play different. The only added element was the light orb, the level design itself is not bigger than Silver Lining, but it's more ambitious in terms of camera, cutscenes, lights. You should feel challenged, you should feel an evolution from the previous game. And that evolution is only yours. Make sure that your game is a game you want to remember. Not anyone else, only yourself. I truly believe that if you accomplish that, others will follow your opinion and understand you.</p>
+<ul>
+<li><strong>Let's not forget the environment</strong></li>
+</ul>
+<p>I believe it's important that your overall environment (home, office, whatever...) gives you the freedom to work on your game</p>
+<p>&nbsp;</p>
+<nav id="tldr">
+<h2>Ok, TL;DR</h2>
+<p>My first experience with Ludum Dare was awesome and tough at the same. I learned a lot and truly felt an evolution from the previous game. Not only that, but I feel more confident to keep going and creating more games that support my vision. I'd like to thank the people commenting on the submission and the whole LD community for making awesomeness all the time. The games I'm seeing are pretty much amazing.</p>
+<p>Now, what I learned:</p>
+<ol>
+<li><strong>Code your map editor if you have no experience, making a game is already hard enough<br />
+</strong></li>
+<li><strong>(Any) Experience &gt; no experience<br />
+</strong></li>
+<li><strong>Focus on crucial details early on (but don't waste too much time on them)<br />
+</strong></li>
+<li><strong>Debug tools save minutes to hours of your time<br />
+</strong></li>
+<li><strong>Respect your limitations, make memorable games<br />
+</strong></li>
+<li><strong>Make sure your house is a nice place to work on games<br />
+</strong></li>
+</ol>
+<p>That's pretty much it</p>
+<p>&nbsp;</p>

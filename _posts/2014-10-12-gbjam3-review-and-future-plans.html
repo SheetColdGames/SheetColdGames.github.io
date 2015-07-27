@@ -1,0 +1,55 @@
+---
+layout: post
+title: GBJam3 review and future plans
+date: 2014-10-12 20:45:08.000000000 -03:00
+categories:
+- Game Jam
+- News
+tags:
+- fast game creation
+- GBJam
+- Pixel Art
+- Update
+status: publish
+type: post
+published: true
+meta:
+  _edit_last: '24444519'
+  geo_public: '0'
+  _publicize_pending: '1'
+  _wp_old_slug: gbjam-review-and-future-plans
+  _post_restored_from: a:3:{s:20:"restored_revision_id";i:110;s:16:"restored_by_user";i:24444519;s:13:"restored_time";i:1413387319;}
+description: By Rafael Giordanno
+author:
+  login: rafaelgiordanno
+  email: rafaelgiordanno@yahoo.com
+  name: Rafael Giordanno
+  twitter: giordanno92
+  first_name: ''
+  last_name: ''
+excerpt: !ruby/object:Hpricot::Doc
+  options: {}
+---
+<p>Hello, folks. Rafael here again. Wow, is the title correct? Yes it is! This time we're updating (late) details of the GBJam and the current plans we have for the future of SheetColdGames.</p>
+<p>As we stated in the previous post, we were on the GBJam and did a great job for a debut game, starring at #48 on the rank of more than 200 games, even with a game with no sound, I was pretty glad that people enjoyed the overall unfinished experience. OK, so let me share the experience of the GBJam before it slips away from my mind.</p>
+<p><!--more--></p>
+<h2>A totally new experience</h2>
+<p>If there's one word that can describe the GBJam for me is: NIGHTMARE! Calm down, it's not the way you think it is. Everything was great, the tweets and previews that people posted were super cool, the whole interaction on twitter was amazing. Now if there was really a problem, that had got to be me (Rafael). For this GBJam game, I decided to go with a tactical strategy game in the shape of games I played when I was little, like Shining Force, Final Fantasy Tactics Advance and Phantasy Star. The only problem with that was: I never had any experience on creating games like that. I always wanted to make tactical strategy games, but my main problem was that I never knew how to start. The movement? The battle? The A.I.? The cutscenes? The attack animations? The stats? How do I store all these stuff? Somehow down the line, things started to come together (in a very ugly way internally) and I was able to have an idea of a game after 4 or 5 days. The main problem that I faced while making the game was the A.I., I didn't know how to implement the A.I. logic for the whole game so that it felt good. Another problem that emerged was the combat system, but I'll get to that later.</p>
+<p>Before the GBJam started, I knew that I wanted to make a tactical strategy game, so I did a little mockup on how I thought the game would look like, after some hours drawing pixel by pixel, I came up with this (notice that this is pre-GBJam):</p>
+<p><img class="aligncenter wp-image-102" src="/assets/media/game-mockup.png" alt="clockwork mockup" width="240" height="216" /></p><p>Ok, nothing so fancy, but again, I am no artist. I thought that was enough for me to know how the game would look like in the end. I had a simple HUD, everyone understood what I wanted, so I was on the right track. When the GBJam began, I started programming everything with filled rectangles and did the background logic. That's when I noticed I wasn't planning ahead all the stuff.</p>
+<h2>When (almost) everything began to go wrong,</h2>
+<p>The reason I didn't focus on creating a core engine was because I thought I would make everything on my own. I really thought I would be able to make a full enjoyable lengthy game with art and music in 10 days without having any idea on how to start doing so.</p>
+<p>My gut only took me so far. At the end of day one, I was having only the basic movement for the main character... And it was so flawed that desperated me a little bit. "How can the movement in a top down game be flawed?" I might hear you ask. Well, the player was only allowed to move inside the 16/16 pixel grid I had set up. The reason for me to want that was to prevent any strange movements in the game and keep  it fluid, else, the player would think (s)he could be able to move outside the grid and that was not the intention. Several games implemented move in that way, one example is Shining Force.</p>
+<p>Even though I started out pretty slow, I still believed that things would go well. I had already started doing other stuff pretty slow at the beginning, ending up with full fledged systems in less than 6 days, so I thought that would be the same with this game. Only one problem I didn't notice was I NEVER MADE THIS TYPE OF GAME. It took me that time in the past because I'd only worked with platforming games. I really thought that physics in a platform game was easier than the constraints of the top down strategy game. Well, you might say: "Dude, it IS easier", again, I never worked on this type game. So I should've planned in advance.</p>
+<p>Well, at the dawn of the second day, I found Victor Moura, who was wanting to create a game for the GBJam but wasn't feeling really inspired. Later on, I, not only, found out he had created beautiful pixel art. But that he also had made the art for Terraria. After showing him the mockup presented early on in this post, he remade everything with different colors in about 3 hours and this was the result:</p>
+<p><img class="aligncenter size-full wp-image-104" src="/assets/media/0vznk3k.gif" alt="clockwork gui remade" width="160" height="144" /></p><p></a>I was blown away and sold at the first second. It was an honour to have him on board and his dedication made me push my skills further to have that type of game done already. Working with Victor was the first time I have ever worked with someone commited to do the work and to really share ideas. At first sight, I felt like some sort of boss, since I was the one with the vision for the final game. I never like this sort of boss type of hierarchy, I'm not really paying him, so I wanted to allow him to have ideas as well. In somewhat like 2 days, we started to develop a better conversation with ourselves sharing tons of ideas and talking about a million different stuff. It was a pleasant experience and I only wished I had more experience to, at least, make some stuff better in the game. But it was a good learning experience, he was super patient with my dedication to the project and I'm glad I spent those days working with him.</p>
+<h2>The critical moment, only four days left</h2>
+<p>With four days left, I still didn't have any sprites on the screen, just rectangles with the temporary tiles for collision and movement. Even like that, I was pretty happy with the result of having a flawed path finding algorithm and using a recursive method to find all the possible walking tiles. Now there were other problems, I needed to make the player attack the enemy and vice versa, had to come up with the cutscenes and the menu to tell the story and also had to work my way with the camera movement and the turn based thing as well as the "juice" that would make the game feel cool. Desperation starts to take in and I decided to start working on all the visual stuff already. In one day, much of what you see in the final game is already done and that made me believe in myself again.</p>
+<p>As the few days went by, I ended up noticing that I wouldn't have the time to insert the music, not only that, but I wasn't being able to insert music into the game. That made me a little nervous. Of course I wanted to have my music in the game, Victor also wanted, but an internal bug on the way I was implementing didn't allow that. Not only this, but I noticed that the way I implemented the engine was so flawed that every single instance of the game had to receive the Music Player, cause each instance knows when to play the music. I learned a value lesson after this, which was centralize the instances and the logic of the game. And here is my advice for you, the less parameters each instance of your engine needs, the better. So after, this, we had no sound in the game.</p>
+<h2>Two days left. Where's the menu? The sequence of the game?</h2>
+<p>So, here I was trying to fix the logic of the A.I. and didn't notice I had no game so far. No sequence of scenes, of battles, or even a menu. So I decided to work on a game that could have some sort of beginning and end, even though it wouldn't be enjoyable. And that's what I did. In one day, I implemented the entire cutscenes for the game and made a sequence. I wouldn't see the whole cutscenes done until the last minute of the jam. As in terms of A.I. for the game, I could have thought of some better algorithm. But I decided to simply scrap everything and go with the random approach.</p>
+<h2>The release of the game</h2>
+<p>When I released the game, it was just a few minutes before the deadline, I was hoping for the worst, but people seemed to enjoy and it was a very nice experience for me. I could think of everything as being a real experience of what a life of a game dev was like and I sort of took that for my life and decided to study a lot more to improve my programming technique. And this is what I'm doing right now. That's why it took so long to make an update. (not only that, but other internal problems here.)</p>
+<h2>And what about the future?</h2>
+<p>The future is uncertain, but we'll be definitely developing Clockwork Gear Hunters as soon as I establish my life (a job, etc.), From now on, you'll be reading about the development of Clockwork Gear Hunters and the unnamed engine that we'll develop so far for 2D games. We'll be writing it in Java using libGDX, but João Vitor and I have been talking and there's a possibility of the game being released on C/C++, we still don't know which framework we might use (IF we use any, else we might just go with OpenGL to help on the rendering). The reason for this change of heart is the fact that all the materials that we found so far are in C/C++ format, port that to Java will be easy later on. So hang on, little buddies, we still alive and we'll continue to make games.</p>
+<p>Oh, one last thing. We might be migrating to Jekyll, and we'll be probably hosting our page on Github Pages, so the blog section will be transferred to there. This one will still be alive and we might (even) update this blog along with the official blog. More about this on the next post. See ya.</p>

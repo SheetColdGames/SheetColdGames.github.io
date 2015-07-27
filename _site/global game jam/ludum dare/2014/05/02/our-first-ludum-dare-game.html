@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Our first Ludum Dare game - Beneath Lights</title>
+	
+	<meta name="description" content="By Rafael Giordanno">
+	
+	<meta name="author" content="SCG">
+
+	<!-- Enable responsive viewport -->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<!-- Le HTML5 shim, for IE6-8 support of HTML elements -->
+	<!--[if lt IE 9]>
+	<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+	<![endif]-->
+
+	<!-- Le styles -->
+	<link href="/assets/resources/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+	<link href="/assets/resources/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+	<link href="/assets/resources/syntax/syntax.css" rel="stylesheet">
+	<link href="/assets/css/style.css" rel="stylesheet">
+
+	<!-- Le fav and touch icons -->
+	<!-- Update these with your own images
+	<link rel="shortcut icon" href="images/favicon.ico">
+	<link rel="apple-touch-icon" href="images/apple-touch-icon.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="images/apple-touch-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="images/apple-touch-icon-114x114.png">
+	-->
+
+	<link rel="alternate" type="application/rss+xml" title="" href="/feed.xml">
+</head>
+
+<body>
+	<nav class="navbar navbar-default visible-xs" role="navigation">
+		<!-- Brand and toggle get grouped for better mobile display -->
+		<div class="navbar-header">
+			<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+				<span class="sr-only">Toggle navigation</span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+			</button>
+			
+			<a type="button" class="navbar-toggle nav-link" href="http://github.com/sheetcoldgames">
+				<i class="fa fa-github"></i>
+			</a>
+			
+			
+			<a type="button" class="navbar-toggle nav-link" href="http://twitter.com/sheetcoldgames">
+				<i class="fa fa-twitter"></i>
+			</a>
+			
+			
+			<a type="button" class="navbar-toggle nav-link" href="mailto:sheetcoldgames@gmail.com">
+				<i class="fa fa-envelope"></i>
+			</a>
+			
+			<a class="navbar-brand" href="/">
+				<img src="/assets/media/scglogo.png" class="img-circle" />
+				
+			</a>
+		</div>
+
+		<!-- Collect the nav links, forms, and other content for toggling -->
+		<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+			<ul class="nav navbar-nav">
+				<li class="active"><a href="/">Home</a></li>
+				<li><a href="/categories.html">Categories</a></li>
+				<li><a href="/tags.html">Tags</a></li>
+			</ul>
+		</div><!-- /.navbar-collapse -->
+	</nav>
+
+	<!-- nav-menu-dropdown -->
+	<div class="btn-group hidden-xs" id="nav-menu">
+		<button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown">
+			<i class="fa fa-bars"></i>
+		</button>
+		<ul class="dropdown-menu" role="menu">
+			<li><a href="/"><i class="fa fa-home"></i>Home</a></li>
+			<li><a href="/categories.html"><i class="fa fa-folder"></i>Categories</a></li>
+			<li><a href="/tags.html"><i class="fa fa-tags"></i>Tags</a></li>
+			<li class="divider"></li>
+			<li><a href="#"><i class="fa fa-arrow-up"></i>Top of Page</a></li>
+		</ul>
+	</div>
+
+	<div class="col-sm-3 sidebar hidden-xs">
+		<!-- sidebar.html -->
+<header class="sidebar-header" role="banner">
+	<a href="/">
+		<img src="/assets/media/scglogo.png" class="img-circle" />
+	</a>
+	<h3 class="title">
+        <a href="/"></a>
+    </h3>
+</header>
+
+
+<div id="bio" class="text-center">
+	INDIE GAME DEVELOPMENT
+</div>
+
+
+<div id="contact-list" class="text-center">
+	<ul class="list-unstyled list-inline">
+		
+		<li>
+			<a class="btn btn-default btn-sm" href="https://github.com/sheetcoldgames">
+				<i class="fa fa-github-alt fa-lg"></i>
+			</a>
+		</li>
+		
+		
+		<li>
+			<a class="btn btn-default btn-sm" href="https://twitter.com/sheetcoldgames">
+				<i class="fa fa-twitter fa-lg"></i>
+			</a>
+		</li>
+		
+		
+		<li>
+			<a class="btn btn-default btn-sm" href="mailto:sheetcoldgames@gmail.com">
+				<i class="fa fa-envelope fa-lg"></i>
+			</a>
+		</li>
+		
+	</ul>
+	<ul id="contact-list-secondary" class="list-unstyled list-inline">
+		
+		
+		<li>
+			<a class="btn btn-default btn-sm" href="/feed.xml">
+				<i class="fa fa-rss fa-lg"></i>
+			</a>
+		</li>
+	</ul>
+</div>
+<!-- sidebar.html end -->
+
+	</div>
+
+	<div class="col-sm-9 col-sm-offset-3">
+		<div class="page-header">
+  <h1>Our first Ludum Dare game - Beneath Lights </h1>
+</div>
+	
+<article>
+
+	<div class="col-sm-10">
+	 <span class="post-date">
+	   
+	   May 
+	   2nd,
+	     
+	   2014
+	 </span>
+	  <div class="article_body">
+	  <p>I (Rafael) have participated in the Ludum Dare for the first time. I've been wanting to make a game there since LD23, but never thought I had "what it takes" to make a decent game in 48h/72h. But now the game is here, I present you: <a title="Click here to play" href="http://www.ludumdare.com/compo/ludum-dare-29/?action=preview&amp;uid=34466" target="_blank">Beneath Lights</a>!</p>
+<p><a href="http://www.ludumdare.com/compo/ludum-dare-29/?action=preview&amp;uid=34466"><img class="size-large wp-image-54" src="/assets/media/beneath1.png?w=460" alt="Beneath Lights" width="460" height="345" /></a></p>
+<p><!--more--></p>
+<h1>Post mortem</h1>
+<p>In case you don't want to read all of this stuff, there's a <a href="#tldr">TL;DR;</a> at the end where I bring my experiences earned into account</p>
+<h2>72 hours to think/create, less than 48 to work</h2>
+<p>10:00 PM - The theme was released, I had no time to work immediately, another compo was happening at the same time: Google Code Jam.</p>
+<p>After deciding to forget about the GCJ, I decided to move into LD and the first hours were tough. At first, Beneath the Surface sounded like a nice theme. But I couldn't come up with any idea that satisfied myself and the theme limitations. Many objective and subjective thoughts happened at the same time: "A drowning... Excavation... Multiple Layers... Historical background layers" All these ideas could not satisfy my need to create a game that could make me feel proud in the end. So, at 6am, a hard idea appeared and I decided to work in a game that was ready for Mobile and Desktop. By that time, I had already started a simple scene and a small physical world.</p>
+<p>When I got home, at 8am (I was at João Vitor's house because of GCJ), I took some rest thinking that I had a game in mind. When I woke up I kept working on the idea of a shoot and run + Runner game for mobile. The story would make more sense in terms of theming. But when it was 23pm at my time, I had almost nothing from the game I had in mind, so I decide to scrap that idea and think of something new. After two hours of brainstorming, a new idea emerged, and that was the concept for Beneath Lights.</p>
+<h2>Removing non-used code and working on the new idea</h2>
+<p>Starting the new game from 1:00 AM left me with less than 48h to finish it. The new game idea revolved around a man in struggle with his memory constantly thinking of his lost loved one and punishing himself for that (the dark platform maze is a punishing area btw). Most of the ideas (orb, dark maze and lights) were not thought until the last day of the jam. Before that, it was just me drawing the house and creating platforming mechanics. When the whole idea for the game was done, I decided to let the underground become complete darkness and that allowed me to create a game that could fit my vision and let me work around the time limitations and lack of experience on this type of event.</p>
+<p>Throughout this process, I deleted almost all of my code used for the other type of game and things became quite simpler for quite some time. After all, I thought I'd made the right decision with the game changing, but thinking about it on the first day would surely have helped me a lot. By the end of the second day, I had no art and was using placeholders. That's when <a href="http://www.ludumdare.com/compo/author/brittbrady/" target="_blank">Britt Brady</a> saved the day with his music and art. I decided to call for help on LD blog page and he showed up interested. He did the arts super fast and made two awesome tracks for the game (which unfortunately could only fit one).</p>
+<h2>Ok, so what was learned through all this process?</h2>
+<p>This is my second game jam and obviously several things were learned, here are some tips:</p>
+<ul>
+<li><strong>Avoid hard code things that are not supposed to be hard coded</strong></li>
+</ul>
+<p>And by that, I mean creating maps. I had a super hard time creating the map (a problem that I almost didn't have with Silver Lining), All the Box2D coordinates were hard coded and that's plain stupid, so simply try to create an easy way to develop a map editor to just focus on important things, don't feel ashamed by that. You might even want to play hard mode and just create your map editor during the jam, but if you're not experienced (as I am not), just use a map editor. Believe me, creating a game with a map editor is hard enough, don't fool yourself thinking otherwise. There might be other things, but create maps is just the first things that comes into my mind.</p>
+<ul>
+<li><strong>(Any) Experience counts more than you can imagine:</strong></li>
+</ul>
+<p>Between the GGJ and LD, I had plenty of time to work on learning more about the LibGDX framework. Constantly creating bodies on Box2D and levels with short game mechanics allowed me to make stuff much faster than the previous game and understand problems as soon as they appeared. Real experience creating games is much more important than theoretical experience. Not only that, but we code a lot faster.</p>
+<ul>
+<li><strong>Focus on crucial details early on:</strong></li>
+</ul>
+<p>If your game is a platformer, focus on get the platforming right before adding new elements (don't focus too much though, a good enough at the beginning might be improved on the last hours, just don't leave it buggy). If it's a ship game, focus on the fact that the gravity revolving your ship should feel right before moving on. If it's a RPG with text, focus on a smart way to make the text move faster (for debug or even in game) and on the battle mechanics. Focus on the main facts that make your game playable underneath all the art and music.</p>
+<ul>
+<li><strong>Debug tools are very important</strong></li>
+</ul>
+<p>Debug tools save a LOT of time, so always create a debug condition for your game and you might be able to test stuff quicker (since you won't be able to test much stuff for your game anyway). I can't even count the amount of time I wasted closing and opening the game window just to change one line of code.</p>
+<ul>
+<li><strong>Respect your limitations</strong></li>
+</ul>
+<p>I know that my game is not the greatest game of all LD. It is a short game, its platforming mechanics are far from awesome, but they're decent. Great part of it is because I like to respect my limitations at this moment. I'd rather create something shorter but nice, than something longer and painful to play (even though some might think Beneath Lights is a bit frustrating). From this game to the previous is pretty much the same mechanics, but they feel different, they play different. The only added element was the light orb, the level design itself is not bigger than Silver Lining, but it's more ambitious in terms of camera, cutscenes, lights. You should feel challenged, you should feel an evolution from the previous game. And that evolution is only yours. Make sure that your game is a game you want to remember. Not anyone else, only yourself. I truly believe that if you accomplish that, others will follow your opinion and understand you.</p>
+<ul>
+<li><strong>Let's not forget the environment</strong></li>
+</ul>
+<p>I believe it's important that your overall environment (home, office, whatever...) gives you the freedom to work on your game</p>
+<p>&nbsp;</p>
+<nav id="tldr">
+<h2>Ok, TL;DR</h2>
+<p>My first experience with Ludum Dare was awesome and tough at the same. I learned a lot and truly felt an evolution from the previous game. Not only that, but I feel more confident to keep going and creating more games that support my vision. I'd like to thank the people commenting on the submission and the whole LD community for making awesomeness all the time. The games I'm seeing are pretty much amazing.</p>
+<p>Now, what I learned:</p>
+<ol>
+<li><strong>Code your map editor if you have no experience, making a game is already hard enough<br />
+</strong></li>
+<li><strong>(Any) Experience &gt; no experience<br />
+</strong></li>
+<li><strong>Focus on crucial details early on (but don't waste too much time on them)<br />
+</strong></li>
+<li><strong>Debug tools save minutes to hours of your time<br />
+</strong></li>
+<li><strong>Respect your limitations, make memorable games<br />
+</strong></li>
+<li><strong>Make sure your house is a nice place to work on games<br />
+</strong></li>
+</ol>
+<p>That's pretty much it</p>
+<p>&nbsp;</p>
+
+	  </div>
+
+		
+		<ul class="tag_box list-unstyled list-inline">
+		  <li><i class="fa fa-folder-open"></i></li>
+		  
+		  
+			 
+				<li><a href="/categories.html#global game jam-ref">
+					global game jam <span>(3)</span>
+					,
+				</a></li>
+			 
+				<li><a href="/categories.html#ludum dare-ref">
+					ludum dare <span>(2)</span>
+					
+				</a></li>
+			
+		  
+		</ul>
+		  
+
+		
+		<ul class="list-inline">
+		  <li><i class="fa fa-tags"></i></li>
+		  
+		  
+			 
+				<li>
+					<a href="/tags.html#fast game creation-ref">
+					fast game creation <span>(4)</span>
+					,
+					</a>
+				</li>
+			 
+				<li>
+					<a href="/tags.html#Game Design-ref">
+					Game Design <span>(2)</span>
+					
+					</a>
+				</li>
+			
+		  
+		  
+		</ul>
+		  
+
+		<hr>
+
+		<div>
+      <section class="share col-sm-6">
+        <h4 class="section-title">Share Post</h4>
+        <a class="btn btn-default btn-sm twitter" href="http://twitter.com/share?text=Our first Ludum Dare game - Beneath Lights&via=sheetcoldgames"
+           onclick="window.open(this.href, 'twitter-share', 'width=550,height=235');return false;">
+          <i class="fa fa-twitter fa-lg"></i>
+          Twitter
+        </a>
+        <a class="btn btn-default btn-sm facebook" href="https://www.facebook.com/sharer/sharer.php"
+           onclick="window.open(this.href, 'facebook-share','width=580,height=296');return false;">
+          <i class="fa fa-facebook fa-lg"></i>
+          Facebook
+        </a>
+        <a class="btn btn-default btn-sm gplus"
+           onclick="window.open('https://plus.google.com/share?url='+window.location.href, 'google-plus-share', 'width=490,height=530');return false;">
+          <i class="fa fa-google-plus fa-lg"></i>
+          Google+
+        </a>
+      </section>
+
+      <section class="col-sm-6 author">
+        <!-- aqui  
+        <img src="http://www.gravatar.com/avatar/726351295ec82e145928582f595aa3aa" class="img-rounded author-image" />-->
+        <img src="/assets/media/giordanno92.png" class="img-rounded author-image" />
+        <h4 class="section-title author-name">Rafael Giordanno</h4>
+        <p class="author-bio"><a href="http://twitter.com/giordanno92">@giordanno92</a></p>
+      </section>
+    </div>
+
+    <div class="clearfix"></div>
+
+		<ul class="pager">
+		  
+		  <li class="previous"><a href="/global%20game%20jam/2014/01/30/we-were-at-the-global-game-jam-2014.html" title="We were at the Global Game Jam 2014!!!">&larr; Previous</a></li>
+		  
+		  
+		  <li class="next"><a href="/game%20jam/news/2014/07/29/long-time-no-see-new-jam-games-on-the-way.html" title="Long time no see... New jam games on the way">Next &rarr;</a></li>
+		  
+		</ul>
+
+		<hr>
+	</div>
+	
+	<div class="col-sm-2 sidebar-2">
+	
+	</div>
+</article>
+<div class="clearfix"></div>
+
+
+
+		<footer>
+			<hr/>
+			<p>
+				&copy; 2015 SCG with Jekyll. Theme: <a href="https://github.com/dbtek/dbyll">dbyll</a> by dbtek.
+			</p>
+		</footer>
+	</div>
+
+	<script type="text/javascript" src="/assets/resources/jquery/jquery.min.js"></script>
+	<script type="text/javascript" src="/assets/resources/bootstrap/js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="/assets/js/app.js"></script>
+</body>
+</html>
+

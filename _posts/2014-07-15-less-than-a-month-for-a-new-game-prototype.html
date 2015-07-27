@@ -1,0 +1,37 @@
+---
+layout: post
+title: Less than a month for a new game prototype
+date: 2014-07-15 23:41:08.000000000 -03:00
+categories:
+- Sem categoria
+tags: []
+status: draft
+type: post
+published: false
+meta:
+  _edit_last: '24444519'
+  geo_public: '0'
+description: By Rafael Giordanno
+author:
+  login: rafaelgiordanno
+  email: rafaelgiordanno@yahoo.com
+  name: Rafael Giordanno
+  twitter: giordanno92
+  first_name: ''
+  last_name: ''
+excerpt: !ruby/object:Hpricot::Doc
+  options: {}
+---
+<h2>Long time no see...</h2>
+<p>Hello everyone, Rafael here.</p>
+<p>In a few months there will be a competition here in Brazil called SBGames and we really want to participate. Since our jam games had lots of flaws in terms of gameplay mechanics (and non reusable code), we decided to make a new game from scratch based on the last one. With this, came the dream and desire to create a 2D reusable game engine.</p>
+<p>Well, after coding the engine for the third time, it proved impossible for me to come with clean code in such a short span of time. After reading a few stuff, I've decided to come up with an engine that feels right for now. Not only that, but the game would reflect my programming experience and my current situation right now.</p>
+<p>So, yeah, another platformer game, but this time platfforming feels great. The previous games used Box2D, this one is being entirely made on my own, and I focused so much on the details of it and it just feels good. I've tested for several flaws and such, they usually take some time to appear, but they appear eventually, so I just fix it and it doesn't reallly matter how the code looks after all (I'll have to rewrite them anyway).</p>
+<p>So yeah, we're making a new demo of Beneath Lights. By terms of logic, since that demo took 72 hours to make, it should take less time to implement, right? Wrong! Since I'm remaking the entire physics engine, the lights will also have to be remade. No pressure...</p>
+<p>We can't give much of details about what we have in our minds, or else we'd spoil the game plot. But we can say that the game will be expanded to make the entire story and gameplay feel better.</p>
+<p>Oh and did I mentioned that the deadline is 15 days from now? No pressure at all... Note: I'm not saying that we are not humble, nor anything, we just don't actually have much time in our hands and we really really want to  participate on this.</p>
+<h2>Technical stuff...</h2>
+<p>So, the programmer is talking, let's talk about some technical difficulties that I'm facing while working on this project and how I am handling everything so far. Note that these are not the best solutions for the problems mentioned, it's just the way that I'm doing right now.</p>
+<p>So, since I've used Box2D for my previous games, I tried to use Box2D right now, I really did, but apparently the only people that can use it for platformers are iforce2d and the Limbo developers. I tried to think of all sorts of solutions to create something slightly non realistic for my game. My biggest problem with Box2D are two things: friction and checking the detected collided bodies (wot?).</p>
+<p>The first thing: friction. I could never figure how to make that thing work properly. One thing that I love about old school platform games are the fact that I can traverse in a different route than usual. So I can use slopes to make the environment look a bit more realistic and, in my opinion, make the world a bit more immersive. But I couldn't get right with friction, sometimes it was too much friction, sometimes even with huge friction the character kept sliding, that was so annoying...</p>
+<p>And this must be a lot easier to use in C++, i don't really know, but when it comes to detect which of the two bodies collided, it was somewhat painful. Usually, you have to detect how your body detected anything</p>
