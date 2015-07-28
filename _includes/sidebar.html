@@ -18,14 +18,19 @@
 	<ul class="list-unstyled list-inline">
 		{% if site.author.github %}
 		<li>
-			<a class="btn btn-default btn-sm" href="https://github.com/{{ site.author.github }}">
+			<a class="btn btn-default btn-sm" href="https://github.com/{{ site.author.github }}" target="_blank">
 				<i class="fa fa-github-alt fa-lg"></i>
 			</a>
 		</li>
 		{% endif %}
 		<li>
+<<<<<<< HEAD
 			<a class="btn btn-default btn-sm" href="https://facebook.com/{{ site.author.facebook }}">
 				<i class="fa fa-facebook fa-lg"></i>
+=======
+			<a class="btn btn-default btn-sm" href="https://twitter.com/{{ site.author.twitter }}" target="_blank">
+				<i class="fa fa-twitter fa-lg"></i>
+>>>>>>> 82cc88806458c420484e9b7abe4696426f17a083
 			</a>
 		</li>
 		{% if site.author.twitter %}
@@ -39,20 +44,20 @@
 	<ul id="contact-list-secondary" class="list-unstyled list-inline">
 		{% if site.author.pinterest %}
 		<li>
-			<a class="btn btn-default btn-sm" href="https://pinterest.com/{{ site.author.pinterest }}">
+			<a class="btn btn-default btn-sm" href="https://pinterest.com/{{ site.author.pinterest }}" target="_blank">
 				<i class="fa fa-pinterest fa-lg"></i>
 			</a>
 		</li>
 		{% endif %}
 		{% if site.author.linkedin %}
 		<li>
-			<a class="btn btn-default btn-sm" href="https://linkedin.com/pub/{{ site.author.linkedin }}">
+			<a class="btn btn-default btn-sm" href="https://linkedin.com/pub/{{ site.author.linkedin }}" target="_blank">
 				<i class="fa fa-linkedin fa-lg"></i>
 			</a>
 		</li>
 		{% endif %}
 		<li>
-			<a class="btn btn-default btn-sm" href="{{ site.BASE_PATH }}/{{ site.rss_path }}">
+			<a class="btn btn-default btn-sm" href="{{ site.BASE_PATH }}/{{ site.rss_path }}" target="_blank">
 				<i class="fa fa-rss fa-lg"></i>
 			</a>
 		</li>
