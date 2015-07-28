@@ -16,10 +16,12 @@ defaults:
 
 description: Indie Game development
 author:
-  name: SCG
+  name: Sheet Cold Games
   email: sheetcoldgames@gmail.com
   github: sheetcoldgames
   twitter: sheetcoldgames
+  facebook: sheetcoldgames
+  tumblr: sheetcoldgames
   pinterest: 
   linkedin: 
   bio: INDIE GAME DEVELOPMENT
@@ -28,5 +30,6 @@ author:
 rss_path: feed.xml
 categories_path: categories.html
 tags_path: tags.html
+games_path: games.html
 
 BASE_PATH:

@@ -19,6 +19,16 @@
 	  <div class="article_body">
 	  {{ content }}
 	  </div>
+	  	{% unless page.links == empty %}
+		<ul class="list-inline">
+			{% for domain in page.links %}
+				<li><i class="fa fa-download"></i></li>
+				<li>
+					<a href="{{ domain[1] }}" target="_blank"> {{ domain[0] }} </a>
+				</li>
+			{% endfor %}
+		</ul>
+		{% endunless %}
 
 		{% unless page.categories == empty %}
 		<ul class="tag_box list-unstyled list-inline">
@@ -67,7 +77,8 @@
 		  {% endif %}
 		  {% assign tags_list = nil %}
 		</ul>
-		{% endunless %}  
+		{% endunless %}
+		  
 
 		<hr>
 
@@ -94,9 +105,6 @@
       <section class="col-sm-6 author">
         <!-- aqui{{ site.BASE_PATH}} {{site.author.login}} 
         <img src="http://www.gravatar.com/avatar/{{site.author.email_md5}}" class="img-rounded author-image" />-->
-        <img src="{{ site.BASE_PATH}}/assets/media/{{page.author.twitter}}.png" class="img-rounded author-image" width="150px" height="150px" />
-        <h4 class="section-title author-name">{{page.author.name}}</h4>
-        <p class="author-bio"><a href="http://twitter.com/{{page.author.twitter}}">@{{page.author.twitter}}</a></p>
       </section>
     </div>
 
