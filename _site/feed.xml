@@ -7,6 +7,21 @@
 		<atom:link href="/feed.xml" rel="self" type="application/rss+xml" />
 		
 			<item>
+				<title>New Home!</title>
+				<description>&lt;p&gt;Hey folks! I’m Just posting here to annouce our new blog.
+After a long time we finaly moved our site from wordpress.com to sheetcoldgames.me.
+Our new home is hosted on github(yes, open source) and is jekyll powered. This layout is not final, we still have some changes to do.&lt;/p&gt;
+
+&lt;p&gt;And this is it.&lt;/p&gt;
+
+&lt;p&gt;Btw, this is my first post here. I will try to post more often (and that’s a lie).&lt;/p&gt;
+</description>
+				<pubDate>Mon, 27 Jul 2015 00:00:00 -0300</pubDate>
+				<link>/general/news/2015/07/27/new-home.html</link>
+				<guid isPermaLink="true">/general/news/2015/07/27/new-home.html</guid>
+			</item>
+		
+			<item>
 				<title>LD32 and back to business</title>
 				<description>&lt;p&gt;Oh wow, is this right again? The last update was... (1, 2, 3, 4, 5...) six months ago?? Yes, it was. First we&#39;ll start by apologizing the lack of posts and all, but we all have our little personal problems, right? Right?&lt;/p&gt;
 &lt;p&gt;Anyway, in this blog post we&#39;ll be talking about what we&#39;re up to and what we&#39;ve done. So here it comes. As usual, I&#39;ll be talking through my (Rafael) perspective.&lt;/p&gt;
@@ -42,6 +57,39 @@
 			</item>
 		
 			<item>
+				<title>The Silent Rage of the Chicken Throwing Crow Masked Man</title>
+				<description>&lt;p&gt;&lt;img class=&quot; size-full wp-image-135 alignnone&quot; src=&quot;/assets/media/banner.png&quot; alt=&quot;TSROTCTCMM Banner&quot; width=&quot;360&quot; height=&quot;240&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;Rafael&#39;s second and Gabriel&#39;s debut in Ludum Dare. The theme was &quot;An Unconventional Weapon&quot;. They didn&#39;t like so much, but they had agreed in making something and thus this happened. Rafael&#39;s not sure if he&#39;ll work on it again.&lt;/p&gt;
+&lt;p&gt;The LD32 happened on april 17th to april 20th&lt;/p&gt;
+</description>
+				<pubDate>Mon, 20 Apr 2015 00:00:00 -0300</pubDate>
+				<link>/games/game%20jam/2015/04/20/the-silent-rage-of-the-chicken-throwing-crow-masked-man.html</link>
+				<guid isPermaLink="true">/games/game%20jam/2015/04/20/the-silent-rage-of-the-chicken-throwing-crow-masked-man.html</guid>
+			</item>
+		
+			<item>
+				<title>Adrift in Space</title>
+				<description>&lt;p&gt;&lt;img class=&quot;alignnone size-large wp-image-136&quot; src=&quot;/assets/media/thumbnail-astronaut_peum.png?w=687&quot; alt=&quot;AIS_Astronaut&quot; width=&quot;687&quot; height=&quot;458&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;Concept implemented for the &lt;a href=&quot;https://itch.io/jam/gdp-space-jam&quot; target=&quot;_blank&quot;&gt;GDP Space Jam&lt;/a&gt; that Rafael had for LD30 theme Connected Worlds which he couldn&#39;t implement for thinking it was too complex. He did all the concept for the full game in five hours. The rest of the time was doing star effects, collectible effects, the OST and polishing the controls to make a little fairer. The game is quite complicated and practically unbeatable for most people.&lt;/p&gt;
+&lt;p&gt;The &lt;a href=&quot;https://itch.io/jam/gdp-space-jam&quot; target=&quot;_blank&quot;&gt;GDP Space Jam&lt;/a&gt; happened on February 27th to March 1st&lt;/p&gt;
+</description>
+				<pubDate>Sun, 01 Mar 2015 00:00:00 -0300</pubDate>
+				<link>/games/game%20jam/2015/03/01/adrift-in-space.html</link>
+				<guid isPermaLink="true">/games/game%20jam/2015/03/01/adrift-in-space.html</guid>
+			</item>
+		
+			<item>
+				<title>In Memory of my Friend, G976</title>
+				<description>&lt;p&gt;&lt;img src=&quot;/assets/media/in-memory-of-art-resized.png?w=687&quot; alt=&quot;In memory of Art (resized)&quot; width=&quot;50%&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;Our second game for the Global Game Jam 2015, a year later and some improvements can be seen from our debut game. It&#39;s still under final touches, a blog post and download link will come soon!&lt;/p&gt;
+&lt;p&gt;The Global Game Jam 2015 happened on January 23rd.&lt;/p&gt;
+</description>
+				<pubDate>Fri, 23 Jan 2015 00:00:00 -0200</pubDate>
+				<link>/games/global%20game%20jam/2015/01/23/in-memory-of-my-friend-g976.html</link>
+				<guid isPermaLink="true">/games/global%20game%20jam/2015/01/23/in-memory-of-my-friend-g976.html</guid>
+			</item>
+		
+			<item>
 				<title>GBJam3 review and future plans</title>
 				<description>&lt;p&gt;Hello, folks. Rafael here again. Wow, is the title correct? Yes it is! This time we&#39;re updating (late) details of the GBJam and the current plans we have for the future of SheetColdGames.&lt;/p&gt;
 &lt;p&gt;As we stated in the previous post, we were on the GBJam and did a great job for a debut game, starring at #48 on the rank of more than 200 games, even with a game with no sound, I was pretty glad that people enjoyed the overall unfinished experience. OK, so let me share the experience of the GBJam before it slips away from my mind.&lt;/p&gt;
@@ -70,6 +118,17 @@
 				<pubDate>Sun, 12 Oct 2014 20:45:08 -0300</pubDate>
 				<link>/game%20jam/news/2014/10/12/gbjam3-review-and-future-plans.html</link>
 				<guid isPermaLink="true">/game%20jam/news/2014/10/12/gbjam3-review-and-future-plans.html</guid>
+			</item>
+		
+			<item>
+				<title>Clockwork Gear Hunters (ALPHA)</title>
+				<description>&lt;p&gt;&lt;img src=&quot;/assets/media/clockwork_splash_screen.png&quot; alt=&quot;Clockwork Gear Hunters (GB)&quot; width=&quot;320&quot; height=&quot;288&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;Our debut game for the GBJam3, Clockwork Gear Hunters is our first Strategy RPG with artwork made by &lt;a title=&quot;Follow this guy, he&#39;s awesome!!!one!&quot; href=&quot;https://twitter.com/CrownoO&quot; target=&quot;_blank&quot;&gt;Victor Moura&lt;/a&gt;. Long blog entry is being written now. This game is currently in alpha, let us know what you think of it &lt;a href=&quot;http://gamejolt.com/games/strategy-sim/clockwork-gear-hunters/32011/&quot; target=&quot;_blank&quot;&gt;here&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;The &lt;a href=&quot;http://gamejolt.com/tag/gbjam3&quot;&gt;GBJam3&lt;/a&gt; happened on August 1st to August 10th.&lt;/p&gt;
+</description>
+				<pubDate>Sun, 10 Aug 2014 00:00:00 -0300</pubDate>
+				<link>/games/game%20jam/2014/08/10/clockwork-gear-hunters.html</link>
+				<guid isPermaLink="true">/games/game%20jam/2014/08/10/clockwork-gear-hunters.html</guid>
 			</item>
 		
 			<item>
@@ -159,56 +218,15 @@
 			</item>
 		
 			<item>
-				<title>We were at the Global Game Jam 2014!!!</title>
-				<description>&lt;p&gt;During this last weekend, we (Rafael, Gabriel and João Vitor) participated in the GGJ 2014. It was super fun and creative... And insane.&lt;/p&gt;
-&lt;p&gt;I&#39;ll be talking a little bit about the feeling of creating a game in two days and, perhaps, give some tips to other people who are willing to participate on such event (like Ludum Dare, as well). I&#39;m not sure about the other guys, so I&#39;ll be talking on my (Rafael&#39;s) perspective.&lt;/p&gt;
-&lt;p&gt;&lt;!--more--&gt;&lt;/p&gt;
-&lt;p&gt;I didn&#39;t know what to expect from the event. I was just anxious cause I&#39;ve never actually finished a game, and suddenly I needed to make one from scratch in only two days. So on the week before, I spent almost all of my time reading blogs and preparing my codelibrary of code so nothing would be wrong on the technical side (as if that is possible.)&lt;/p&gt;
-&lt;p&gt;Arriving at the event, we watched some lectures about tips on surviving the event, which were really useful. After that, the theme was sent to us: &quot;&lt;strong&gt;We don&#39;t see things as they are, we see them as we are.&lt;/strong&gt;&quot;&lt;/p&gt;
-&lt;p&gt;And that was it, we were kicked off to grab our keys for lockers to keep our stuff. We took the time to meet other people and talk about the theme. &lt;a title=&quot;Bettina Calmon&quot; href=&quot;http://bettinacalmon.blogspot.com.br/&quot; target=&quot;_blank&quot;&gt;We even found the music composer of the 8bit world of the latest Intel game.&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;After that, we didn&#39;t really know where to start. So we just went to our lockers, separated the necessary material, found a room, and went on to the brainstorm!&lt;/p&gt;
-&lt;p&gt;After almost two hours of discussion. We decided to gather the theme around a little happy kid with cancer and change the environment depending of the mood of the child. Put in mind that we changed the concept and removed/added things a lot.&lt;/p&gt;
-&lt;p&gt;It was basically 9pm when we started the actual work. Gabriel (designer) started working on the art of the character while I (programmer) started the basic physics of the world and map creation. By around 8am &lt;em&gt;(yes, 11h of coding)&lt;/em&gt;, we had a system for creating maps and character animation. It took me long to do those things &#39;cause I was using &lt;a title=&quot;Awesome game SDK&quot; href=&quot;http://libgdx.badlogicgames.com/&quot; target=&quot;_blank&quot;&gt;LibGDX&lt;/a&gt;, even though this is a great tool for creating games, you have to be very proficient and creative to code the games. Cause the only way to create games with this tool is by using CODE. &lt;em&gt;&lt;a title=&quot;No programming is required!&quot; href=&quot;https://www.scirra.com/manual/1/construct-2&quot; target=&quot;_blank&quot;&gt;&lt;del&gt;(Is there another way?)&lt;/del&gt;&lt;/a&gt;&lt;/em&gt;&lt;/p&gt;
-&lt;p&gt;When it was around 10am, I decided to take some sleep. Gabriel slept around 6am to 8am. After I woke up, around 12am, we had lunch and discussed a bit more about the event and the game we were making. I was particularly worried that I would actually not finish the game.&lt;/p&gt;
-&lt;p&gt;When we got back, we worked on the level design of the game and started adding new stuff to it, in general. We had to cut several mechanics that we wanted to have in the game.&lt;/p&gt;
-&lt;p&gt;When the event was almost done, we didn&#39;t have an actual game. What we had was an interactive concept for a future game. And we are going to work on this beautiful concept throghout the future months and hope you&#39;ll enjoy it.&lt;/p&gt;
-&lt;p&gt;In general, the Global Game Jam is an event for everyone. In fact, the GGJ is an event for everyone who wants to create something. Know how to program? Draw? Paint? Digitally draw or paint? Compose music? Write about stuff? Then the Global Game Jam is for you. I highly recommend it to the creative minds. It doesn&#39;t actually matter if you think your game will &quot;suck&quot;. Just go to the event, meet new people, learn other stuff. More than fourteen thousand people participated of the jam, do you really think that they are all professional game creators?&lt;/p&gt;
-&lt;p&gt;I thought I was not going to be able to create anything on the jam, but the event surprised me, gathering creative people under the same roof and pushing themselves to the limit. This event also showed me what I want to do for my entire life, &#39;cause creating something in this two days and not feel tired at all is an amazing feeling.&lt;/p&gt;
-&lt;p&gt;I think I&#39;ll be taking Ludum Dares while I still need to wait another year for the next GGJ.&lt;/p&gt;
-&lt;p&gt;I&#39;d like to thank João Vitor, Sarah Moraes, Bettina Calmon (main theme) and Leonardo (my brother) for the support on the event... And not forget &lt;a href=&quot;https://soundcloud.com/lizzi-cloverman/&quot; target=&quot;_blank&quot;&gt;Lizzi Cloverman&lt;/a&gt;, for the ending theme&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;http://globalgamejam.org/2014/games/silver-lining&quot;&gt;&lt;img class=&quot;size-large wp-image-19&quot; alt=&quot;Silver Lining&quot; src=&quot;/assets/media/artworksilverliningbigger.png?w=687&amp;amp;h=781&quot; width=&quot;460&quot; height=&quot;523&quot; /&gt;&lt;/a&gt; &lt;/p&gt;
-&lt;p&gt;Silver Lining&lt;/p&gt;
-&lt;p&gt;Here we have a picture of Gabriel (designer) sleeping with his monitor (it&#39;s not his monitor, btw):&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;http://sheetcoldgames.files.wordpress.com/2014/01/nigga-stole-mah-monitor.jpg&quot;&gt;&lt;img class=&quot;size-large wp-image-14&quot; alt=&quot;My Precious&quot; src=&quot;/assets/media/nigga-stole-mah-monitor.jpg?w=460&quot; width=&quot;460&quot; height=&quot;627&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;My Precious&lt;/p&gt;
+				<title>Beneath Lights</title>
+				<description>&lt;p&gt;&lt;img style=&quot;width:70%;&quot; src=&quot;/assets/media/beneath1.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a title=&quot;Our first Ludum Dare game – Beneath Lights&quot; href=&quot;/global game jam/ludum dare/2014/05/02/our-first-ludum-dare-game.html&quot;&gt;About developing this game&lt;/a&gt;&lt;br /&gt;
+Rafael&#39;s first entry for the Ludum Dare (LD29 theme: Beneath the Surface). &lt;a href=&quot;http://www.ludumdare.com/compo/ludum-dare-29/?action=preview&amp;amp;uid=34466&quot; target=&quot;_blank&quot;&gt;Check the original entry site here&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;LD29 happened on 25/04/2014&lt;/p&gt;
 </description>
-				<pubDate>Thu, 30 Jan 2014 22:01:57 -0200</pubDate>
-				<link>/global%20game%20jam/2014/01/30/we-were-at-the-global-game-jam-2014.html</link>
-				<guid isPermaLink="true">/global%20game%20jam/2014/01/30/we-were-at-the-global-game-jam-2014.html</guid>
-			</item>
-		
-			<item>
-				<title>Olá, Mundo!</title>
-				<description>&lt;p&gt;Primeiro post do blog da Sheet Cold Games, nosso projeto de criação de jogos, que eu (Rafael) farei em parceria com meu amigo João Vitor. Tudo ainda será meio temporário e não sabemos sobre o que iremos abordar aqui. Mas podem esperar matérias relacionadas à programação, jogos e música.&lt;/p&gt;
-</description>
-				<pubDate>Fri, 06 Dec 2013 23:00:01 -0200</pubDate>
-				<link>/sem%20categoria/2013/12/06/ol%C3%A1-mundo-.html</link>
-				<guid isPermaLink="true">/sem%20categoria/2013/12/06/ol%C3%A1-mundo-.html</guid>
-			</item>
-		
-			<item>
-				<title>Hello World!</title>
-				<description>&lt;p&gt;&lt;strong&gt;dbyll&lt;/strong&gt; is minimalist, stylish theme for jekyll. Supports gravatar, account links (github, twitter, e-mail, pinterest, résume file) and a bio.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;dbyll&lt;/strong&gt; is brought to you by &lt;strong&gt;&lt;a href=&quot;http://ismaildemirbilek.com&quot;&gt;dbtek&lt;/a&gt;&lt;/strong&gt;. Open sourced under &lt;a href=&quot;http://opensource.org/licenses/MIT&quot;&gt;MIT&lt;/a&gt; license.&lt;/p&gt;
-
-&lt;h3 id=&quot;dbyll-is-on-github&quot;&gt;dbyll is on GitHub&lt;/h3&gt;
-
-&lt;p&gt;&lt;a class=&quot;btn btn-default&quot; href=&quot;https://github.com/dbtek/dbyll&quot;&gt;Grab your copy now!&lt;/a&gt;&lt;/p&gt;
-</description>
-				<pubDate>Fri, 15 Nov 2013 00:00:00 -0200</pubDate>
-				<link>/general/setup/demo/2013/11/15/hello-world.html</link>
-				<guid isPermaLink="true">/general/setup/demo/2013/11/15/hello-world.html</guid>
+				<pubDate>Fri, 25 Apr 2014 00:00:00 -0300</pubDate>
+				<link>/games/game%20jam/2014/04/25/beneath-lights.html</link>
+				<guid isPermaLink="true">/games/game%20jam/2014/04/25/beneath-lights.html</guid>
 			</item>
 		
 	</channel>

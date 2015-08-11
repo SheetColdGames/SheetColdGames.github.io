@@ -19,6 +19,7 @@
 	<!-- Le styles -->
 	<link href="{{ site.BASE_PATH }}/assets/resources/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 	<link href="{{ site.BASE_PATH }}/assets/resources/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+	<link href="{{ site.BASE_PATH }}/assets/resources/foundation-icons/foundation-icons.css" rel="stylesheet">
 	<link href="{{ site.BASE_PATH }}/assets/resources/syntax/syntax.css" rel="stylesheet">
 	<link href="{{ site.BASE_PATH }}/assets/css/style.css" rel="stylesheet">
 
@@ -73,6 +74,8 @@
 		<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 			<ul class="nav navbar-nav">
 				<li class="active"><a href="{{ site.BASE_PATH }}/">Home</a></li>
+				<li><a href="{{ site.BASE_PATH}}/{{ site.about_path }}">About</a></li>
+				<li><a href="{{ site.BASE_PATH}}/{{ site.games_path }}">Games</a></li>
 				<li><a href="{{ site.BASE_PATH}}/{{ site.categories_path }}">Categories</a></li>
 				<li><a href="{{ site.BASE_PATH}}/{{ site.tags_path }}">Tags</a></li>
 			</ul>
@@ -86,6 +89,7 @@
 		</button>
 		<ul class="dropdown-menu" role="menu">
 			<li><a href="{{ site.BASE_PATH}}/"><i class="fa fa-home"></i>Home</a></li>
+			<li><a href="{{ site.BASE_PATH}}/{{ site.about_path }}"><i class="fa fi-torsos-all"></i>About</a></li>
 			<li><a href="{{ site.BASE_PATH}}/{{ site.games_path }}"><i class="fa fa-gamepad"></i>Games</a></li>
 			<li><a href="{{ site.BASE_PATH}}/{{ site.categories_path }}"><i class="fa fa-folder"></i>Categories</a></li>
 			<li><a href="{{ site.BASE_PATH}}/{{ site.tags_path }}"><i class="fa fa-tags"></i>Tags</a></li>

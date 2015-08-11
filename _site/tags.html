@@ -4,7 +4,7 @@
 	<meta charset="utf-8">
 	<title>Tags</title>
 	
-	<meta name="author" content="SCG">
+	<meta name="author" content="SheetColdGames">
 
 	<!-- Enable responsive viewport -->
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -17,6 +17,7 @@
 	<!-- Le styles -->
 	<link href="/assets/resources/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 	<link href="/assets/resources/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+	<link href="/assets/resources/foundation-icons/foundation-icons.css" rel="stylesheet">
 	<link href="/assets/resources/syntax/syntax.css" rel="stylesheet">
 	<link href="/assets/css/style.css" rel="stylesheet">
 
@@ -42,20 +43,25 @@
 				<span class="icon-bar"></span>
 			</button>
 			
-			<a type="button" class="navbar-toggle nav-link" href="http://github.com/sheetcoldgames">
+			<a type="button" class="navbar-toggle nav-link" href="http://github.com/sheetcoldgames" target="_blank">
 				<i class="fa fa-github"></i>
 			</a>
 			
 			
-			<a type="button" class="navbar-toggle nav-link" href="http://twitter.com/sheetcoldgames">
+			<a type="button" class="navbar-toggle nav-link" href="http://twitter.com/sheetcoldgames" target="_blank">
 				<i class="fa fa-twitter"></i>
 			</a>
 			
+			<a type="button" class="navbar-toggle nav-link" href="http://facebook.com/sheetcoldgames">
+				<i class="fa fa-facebook"></i>
+			</a>
+			<!--
 			
 			<a type="button" class="navbar-toggle nav-link" href="mailto:sheetcoldgames@gmail.com">
 				<i class="fa fa-envelope"></i>
 			</a>
 			
+			-->
 			<a class="navbar-brand" href="/">
 				<img src="/assets/media/scglogo.png" class="img-circle" />
 				
@@ -66,6 +72,8 @@
 		<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 			<ul class="nav navbar-nav">
 				<li class="active"><a href="/">Home</a></li>
+				<li><a href="/about.html">About</a></li>
+				<li><a href="/games.html">Games</a></li>
 				<li><a href="/categories.html">Categories</a></li>
 				<li><a href="/tags.html">Tags</a></li>
 			</ul>
@@ -79,6 +87,8 @@
 		</button>
 		<ul class="dropdown-menu" role="menu">
 			<li><a href="/"><i class="fa fa-home"></i>Home</a></li>
+			<li><a href="/about.html"><i class="fa fi-torsos-all"></i>About</a></li>
+			<li><a href="/games.html"><i class="fa fa-gamepad"></i>Games</a></li>
 			<li><a href="/categories.html"><i class="fa fa-folder"></i>Categories</a></li>
 			<li><a href="/tags.html"><i class="fa fa-tags"></i>Tags</a></li>
 			<li class="divider"></li>
@@ -107,22 +117,20 @@
 	<ul class="list-unstyled list-inline">
 		
 		<li>
-			<a class="btn btn-default btn-sm" href="https://github.com/sheetcoldgames">
+			<a class="btn btn-default btn-sm" href="https://github.com/sheetcoldgames" target="_blank">
 				<i class="fa fa-github-alt fa-lg"></i>
 			</a>
 		</li>
 		
-		
 		<li>
-			<a class="btn btn-default btn-sm" href="https://twitter.com/sheetcoldgames">
-				<i class="fa fa-twitter fa-lg"></i>
+			<a class="btn btn-default btn-sm" href="https://facebook.com/sheetcoldgames" target="_blank">
+				<i class="fa fa-facebook fa-lg"></i>
 			</a>
 		</li>
 		
-		
 		<li>
-			<a class="btn btn-default btn-sm" href="mailto:sheetcoldgames@gmail.com">
-				<i class="fa fa-envelope fa-lg"></i>
+			<a class="btn btn-default btn-sm" href="https://twitter.com/sheetcoldgames" target="_blank">
+				<i class="fa fa-twitter fa-lg"></i>
 			</a>
 		</li>
 		
@@ -131,11 +139,31 @@
 		
 		
 		<li>
-			<a class="btn btn-default btn-sm" href="/feed.xml">
+			<a class="btn btn-default btn-sm" href="/feed.xml" target="_blank">
 				<i class="fa fa-rss fa-lg"></i>
 			</a>
 		</li>
+		<li>
+			<a class="btn btn-default btn-sm" href="https://tumblr.com/sheetcoldgames" target="_blank">
+				<i class="fa fa-tumblr fa-lg"></i>
+			</a>
+		</li>
+		
+		<li>
+			<a class="btn btn-default btn-sm" href="mailto:sheetcoldgames@gmail.com">
+				<i class="fa fa-envelope fa-lg"></i>
+			</a>
+		</li>
+		
 	</ul>
+	<!-- jv edit -->
+	<!--
+	<ul id="contact-list" class="list-unstyled list-inline">
+		<li>
+			<button type="button" class="btn btn-default btn-md outline">Games</button>
+		</li>
+	</ul>
+	-->
 </div>
 <!-- sidebar.html end -->
 
@@ -155,8 +183,22 @@
     
       
       <li>
+          <a href="#GBJAM-ref" data-toggle="tab">
+            GBJAM<span class="badge pull-right">1</span>
+         </a>
+      </li>
+   
+      
+      <li>
           <a href="#GBJam-ref" data-toggle="tab">
             GBJam<span class="badge pull-right">2</span>
+         </a>
+      </li>
+   
+      
+      <li>
+          <a href="#GDP-ref" data-toggle="tab">
+            GDP<span class="badge pull-right">1</span>
          </a>
       </li>
    
@@ -169,6 +211,13 @@
    
       
       <li>
+          <a href="#Game-ref" data-toggle="tab">
+            Game<span class="badge pull-right">2</span>
+         </a>
+      </li>
+   
+      
+      <li>
           <a href="#Game-Design-ref" data-toggle="tab">
             Game Design<span class="badge pull-right">2</span>
          </a>
@@ -176,8 +225,36 @@
    
       
       <li>
+          <a href="#Global-Game-Jam-ref" data-toggle="tab">
+            Global Game Jam<span class="badge pull-right">1</span>
+         </a>
+      </li>
+   
+      
+      <li>
+          <a href="#Jam-ref" data-toggle="tab">
+            Jam<span class="badge pull-right">3</span>
+         </a>
+      </li>
+   
+      
+      <li>
+          <a href="#LD29-ref" data-toggle="tab">
+            LD29<span class="badge pull-right">1</span>
+         </a>
+      </li>
+   
+      
+      <li>
+          <a href="#LD32-ref" data-toggle="tab">
+            LD32<span class="badge pull-right">1</span>
+         </a>
+      </li>
+   
+      
+      <li>
           <a href="#Ludum-Dare-ref" data-toggle="tab">
-            Ludum Dare<span class="badge pull-right">1</span>
+            Ludum Dare<span class="badge pull-right">3</span>
          </a>
       </li>
    
@@ -190,6 +267,13 @@
    
       
       <li>
+          <a href="#Space-Jam-ref" data-toggle="tab">
+            Space Jam<span class="badge pull-right">1</span>
+         </a>
+      </li>
+   
+      
+      <li>
           <a href="#Update-ref" data-toggle="tab">
             Update<span class="badge pull-right">2</span>
          </a>
@@ -197,22 +281,8 @@
    
       
       <li>
-          <a href="#dbtek-ref" data-toggle="tab">
-            dbtek<span class="badge pull-right">1</span>
-         </a>
-      </li>
-   
-      
-      <li>
-          <a href="#dbyll-ref" data-toggle="tab">
-            dbyll<span class="badge pull-right">1</span>
-         </a>
-      </li>
-   
-      
-      <li>
-          <a href="#demo-ref" data-toggle="tab">
-            demo<span class="badge pull-right">1</span>
+          <a href="#blog-ref" data-toggle="tab">
+            blog<span class="badge pull-right">1</span>
          </a>
       </li>
    
@@ -225,15 +295,22 @@
    
       
       <li>
-          <a href="#setup-ref" data-toggle="tab">
-            setup<span class="badge pull-right">1</span>
+          <a href="#silver-lining-ref" data-toggle="tab">
+            silver lining<span class="badge pull-right">1</span>
          </a>
       </li>
    
       
       <li>
-          <a href="#silver-lining-ref" data-toggle="tab">
-            silver lining<span class="badge pull-right">1</span>
+          <a href="#site-ref" data-toggle="tab">
+            site<span class="badge pull-right">1</span>
+         </a>
+      </li>
+   
+      
+      <li>
+          <a href="#topdown-ref" data-toggle="tab">
+            topdown<span class="badge pull-right">1</span>
          </a>
       </li>
    
@@ -241,6 +318,16 @@
 </div>
 <!-- Tab panes -->
 <div class="tab-content col-sm-9 col-xs-6">
+  
+    
+    <div class="tab-pane" id="GBJAM-ref">
+      <h2 style="margin-top: 0px">Posts tagged  with GBJAM</h2>
+      <ul class="list-unstyled">
+        
+          <li style="line-height: 35px;"><a href="/games/game%20jam/2014/08/10/clockwork-gear-hunters.html">Clockwork Gear Hunters (ALPHA)</a> <span class="text-muted">- August 10, 2014</span></li>
+        
+      </ul>
+    </div>
   
     
     <div class="tab-pane" id="GBJam-ref">
@@ -255,11 +342,33 @@
     </div>
   
     
+    <div class="tab-pane" id="GDP-ref">
+      <h2 style="margin-top: 0px">Posts tagged  with GDP</h2>
+      <ul class="list-unstyled">
+        
+          <li style="line-height: 35px;"><a href="/games/game%20jam/2015/03/01/adrift-in-space.html">Adrift in Space</a> <span class="text-muted">- March 01, 2015</span></li>
+        
+      </ul>
+    </div>
+  
+    
     <div class="tab-pane" id="GGJ-2014-ref">
       <h2 style="margin-top: 0px">Posts tagged  with GGJ 2014</h2>
       <ul class="list-unstyled">
         
           <li style="line-height: 35px;"><a href="/global%20game%20jam/2014/01/30/we-were-at-the-global-game-jam-2014.html">We were at the Global Game Jam 2014!!!</a> <span class="text-muted">- January 30, 2014</span></li>
+        
+      </ul>
+    </div>
+  
+    
+    <div class="tab-pane" id="Game-ref">
+      <h2 style="margin-top: 0px">Posts tagged  with Game</h2>
+      <ul class="list-unstyled">
+        
+          <li style="line-height: 35px;"><a href="/games/game%20jam/2015/03/01/adrift-in-space.html">Adrift in Space</a> <span class="text-muted">- March 01, 2015</span></li>
+        
+          <li style="line-height: 35px;"><a href="/games/global%20game%20jam/2015/01/23/in-memory-of-my-friend-g976.html">In Memory of my Friend, G976</a> <span class="text-muted">- January 23, 2015</span></li>
         
       </ul>
     </div>
@@ -277,11 +386,59 @@
     </div>
   
     
+    <div class="tab-pane" id="Global-Game-Jam-ref">
+      <h2 style="margin-top: 0px">Posts tagged  with Global Game Jam</h2>
+      <ul class="list-unstyled">
+        
+          <li style="line-height: 35px;"><a href="/games/game%20jam/2014/01/26/silver-lining.html">Silver Lining</a> <span class="text-muted">- January 26, 2014</span></li>
+        
+      </ul>
+    </div>
+  
+    
+    <div class="tab-pane" id="Jam-ref">
+      <h2 style="margin-top: 0px">Posts tagged  with Jam</h2>
+      <ul class="list-unstyled">
+        
+          <li style="line-height: 35px;"><a href="/games/game%20jam/2015/03/01/adrift-in-space.html">Adrift in Space</a> <span class="text-muted">- March 01, 2015</span></li>
+        
+          <li style="line-height: 35px;"><a href="/games/global%20game%20jam/2015/01/23/in-memory-of-my-friend-g976.html">In Memory of my Friend, G976</a> <span class="text-muted">- January 23, 2015</span></li>
+        
+          <li style="line-height: 35px;"><a href="/games/game%20jam/2014/08/10/clockwork-gear-hunters.html">Clockwork Gear Hunters (ALPHA)</a> <span class="text-muted">- August 10, 2014</span></li>
+        
+      </ul>
+    </div>
+  
+    
+    <div class="tab-pane" id="LD29-ref">
+      <h2 style="margin-top: 0px">Posts tagged  with LD29</h2>
+      <ul class="list-unstyled">
+        
+          <li style="line-height: 35px;"><a href="/games/game%20jam/2014/04/25/beneath-lights.html">Beneath Lights</a> <span class="text-muted">- April 25, 2014</span></li>
+        
+      </ul>
+    </div>
+  
+    
+    <div class="tab-pane" id="LD32-ref">
+      <h2 style="margin-top: 0px">Posts tagged  with LD32</h2>
+      <ul class="list-unstyled">
+        
+          <li style="line-height: 35px;"><a href="/games/game%20jam/2015/04/20/the-silent-rage-of-the-chicken-throwing-crow-masked-man.html">The Silent Rage of the Chicken Throwing Crow Masked Man</a> <span class="text-muted">- April 20, 2015</span></li>
+        
+      </ul>
+    </div>
+  
+    
     <div class="tab-pane" id="Ludum-Dare-ref">
       <h2 style="margin-top: 0px">Posts tagged  with Ludum Dare</h2>
       <ul class="list-unstyled">
         
+          <li style="line-height: 35px;"><a href="/games/game%20jam/2015/04/20/the-silent-rage-of-the-chicken-throwing-crow-masked-man.html">The Silent Rage of the Chicken Throwing Crow Masked Man</a> <span class="text-muted">- April 20, 2015</span></li>
+        
           <li style="line-height: 35px;"><a href="/game%20jam/news/2014/07/29/long-time-no-see-new-jam-games-on-the-way.html">Long time no see... New jam games on the way</a> <span class="text-muted">- July 29, 2014</span></li>
+        
+          <li style="line-height: 35px;"><a href="/games/game%20jam/2014/04/25/beneath-lights.html">Beneath Lights</a> <span class="text-muted">- April 25, 2014</span></li>
         
       </ul>
     </div>
@@ -299,6 +456,16 @@
     </div>
   
     
+    <div class="tab-pane" id="Space-Jam-ref">
+      <h2 style="margin-top: 0px">Posts tagged  with Space Jam</h2>
+      <ul class="list-unstyled">
+        
+          <li style="line-height: 35px;"><a href="/games/game%20jam/2015/03/01/adrift-in-space.html">Adrift in Space</a> <span class="text-muted">- March 01, 2015</span></li>
+        
+      </ul>
+    </div>
+  
+    
     <div class="tab-pane" id="Update-ref">
       <h2 style="margin-top: 0px">Posts tagged  with Update</h2>
       <ul class="list-unstyled">
@@ -311,31 +478,11 @@
     </div>
   
     
-    <div class="tab-pane" id="dbtek-ref">
-      <h2 style="margin-top: 0px">Posts tagged  with dbtek</h2>
+    <div class="tab-pane" id="blog-ref">
+      <h2 style="margin-top: 0px">Posts tagged  with blog</h2>
       <ul class="list-unstyled">
         
-          <li style="line-height: 35px;"><a href="/general/setup/demo/2013/11/15/hello-world.html">Hello World!</a> <span class="text-muted">- November 15, 2013</span></li>
-        
-      </ul>
-    </div>
-  
-    
-    <div class="tab-pane" id="dbyll-ref">
-      <h2 style="margin-top: 0px">Posts tagged  with dbyll</h2>
-      <ul class="list-unstyled">
-        
-          <li style="line-height: 35px;"><a href="/general/setup/demo/2013/11/15/hello-world.html">Hello World!</a> <span class="text-muted">- November 15, 2013</span></li>
-        
-      </ul>
-    </div>
-  
-    
-    <div class="tab-pane" id="demo-ref">
-      <h2 style="margin-top: 0px">Posts tagged  with demo</h2>
-      <ul class="list-unstyled">
-        
-          <li style="line-height: 35px;"><a href="/general/setup/demo/2013/11/15/hello-world.html">Hello World!</a> <span class="text-muted">- November 15, 2013</span></li>
+          <li style="line-height: 35px;"><a href="/general/news/2015/07/27/new-home.html">New Home!</a> <span class="text-muted">- July 27, 2015</span></li>
         
       </ul>
     </div>
@@ -357,21 +504,31 @@
     </div>
   
     
-    <div class="tab-pane" id="setup-ref">
-      <h2 style="margin-top: 0px">Posts tagged  with setup</h2>
-      <ul class="list-unstyled">
-        
-          <li style="line-height: 35px;"><a href="/general/setup/demo/2013/11/15/hello-world.html">Hello World!</a> <span class="text-muted">- November 15, 2013</span></li>
-        
-      </ul>
-    </div>
-  
-    
     <div class="tab-pane" id="silver-lining-ref">
       <h2 style="margin-top: 0px">Posts tagged  with silver lining</h2>
       <ul class="list-unstyled">
         
           <li style="line-height: 35px;"><a href="/global%20game%20jam/2014/01/30/we-were-at-the-global-game-jam-2014.html">We were at the Global Game Jam 2014!!!</a> <span class="text-muted">- January 30, 2014</span></li>
+        
+      </ul>
+    </div>
+  
+    
+    <div class="tab-pane" id="site-ref">
+      <h2 style="margin-top: 0px">Posts tagged  with site</h2>
+      <ul class="list-unstyled">
+        
+          <li style="line-height: 35px;"><a href="/general/news/2015/07/27/new-home.html">New Home!</a> <span class="text-muted">- July 27, 2015</span></li>
+        
+      </ul>
+    </div>
+  
+    
+    <div class="tab-pane" id="topdown-ref">
+      <h2 style="margin-top: 0px">Posts tagged  with topdown</h2>
+      <ul class="list-unstyled">
+        
+          <li style="line-height: 35px;"><a href="/games/global%20game%20jam/2015/01/23/in-memory-of-my-friend-g976.html">In Memory of my Friend, G976</a> <span class="text-muted">- January 23, 2015</span></li>
         
       </ul>
     </div>
@@ -386,7 +543,7 @@
 		<footer>
 			<hr/>
 			<p>
-				&copy; 2015 SCG with Jekyll. Theme: <a href="https://github.com/dbtek/dbyll">dbyll</a> by dbtek.
+				&copy; 2015 SheetColdGames with Jekyll. Theme: <a href="https://github.com/dbtek/dbyll">dbyll</a> by dbtek.
 			</p>
 		</footer>
 	</div>

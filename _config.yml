@@ -12,11 +12,11 @@ defaults:
     scope:
       path: "" # empty string for all files
     values:
-      title: Sheet Cold Games' Blog
+      title: SheetColdGames' Blog
 
 description: Indie Game development
 author:
-  name: Sheet Cold Games
+  name: SheetColdGames
   email: sheetcoldgames@gmail.com
   github: sheetcoldgames
   twitter: sheetcoldgames
@@ -31,5 +31,6 @@ rss_path: feed.xml
 categories_path: categories.html
 tags_path: tags.html
 games_path: games.html
+about_path: about.html
 
 BASE_PATH:
